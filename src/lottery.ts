@@ -4,7 +4,13 @@ export type Draft = {
 };
 
 export function drawLottery(): Draft {
-  // TODO: implement lottery (random numbers and one random extra number)
+  const numbers: number[] = [];
+  const extraNumber: number = 0;
+
+    while(numbers.length > 6){
+      const Temp =  0
+    }
+
   return { numbers: [], extraNumber: -1 };
 }
 
